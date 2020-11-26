@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7B1E914256FB63900BAA3BA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E913256FB63900BAA3BA /* main.swift */; };
+		A7B1E921256FB67500BAA3BA /* Science.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E920256FB67500BAA3BA /* Science.swift */; };
+		A7B1E922256FB67500BAA3BA /* Fusee.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E91D256FB67500BAA3BA /* Fusee.swift */; };
+		A7B1E923256FB67500BAA3BA /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E91F256FB67500BAA3BA /* Menu.swift */; };
+		A7B1E924256FB67500BAA3BA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E91E256FB67500BAA3BA /* main.swift */; };
+		A7B1E925256FB67500BAA3BA /* Fonction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E91C256FB67500BAA3BA /* Fonction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,11 @@
 
 /* Begin PBXFileReference section */
 		A7B1E910256FB63900BAA3BA /* Jeu_Fusee */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Jeu_Fusee; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7B1E913256FB63900BAA3BA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A7B1E91C256FB67500BAA3BA /* Fonction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonction.swift; sourceTree = "<group>"; };
+		A7B1E91D256FB67500BAA3BA /* Fusee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fusee.swift; sourceTree = "<group>"; };
+		A7B1E91E256FB67500BAA3BA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "Jeu_Fusée/main.swift"; sourceTree = "<group>"; };
+		A7B1E91F256FB67500BAA3BA /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		A7B1E920256FB67500BAA3BA /* Science.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Science.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,11 @@
 		A7B1E912256FB63900BAA3BA /* Jeu_Fusee */ = {
 			isa = PBXGroup;
 			children = (
-				A7B1E913256FB63900BAA3BA /* main.swift */,
+				A7B1E91C256FB67500BAA3BA /* Fonction.swift */,
+				A7B1E91D256FB67500BAA3BA /* Fusee.swift */,
+				A7B1E91E256FB67500BAA3BA /* main.swift */,
+				A7B1E91F256FB67500BAA3BA /* Menu.swift */,
+				A7B1E920256FB67500BAA3BA /* Science.swift */,
 			);
 			path = Jeu_Fusee;
 			sourceTree = "<group>";
@@ -119,7 +131,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7B1E914256FB63900BAA3BA /* main.swift in Sources */,
+				A7B1E921256FB67500BAA3BA /* Science.swift in Sources */,
+				A7B1E924256FB67500BAA3BA /* main.swift in Sources */,
+				A7B1E923256FB67500BAA3BA /* Menu.swift in Sources */,
+				A7B1E922256FB67500BAA3BA /* Fusee.swift in Sources */,
+				A7B1E925256FB67500BAA3BA /* Fonction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
